@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGODBURI)
 
 
 app.get("/", (req, res) => {
-    res.send("Server is running on Brower");
+    res.send("Server is running on Brower You check It On Brower");
 });
 
 
